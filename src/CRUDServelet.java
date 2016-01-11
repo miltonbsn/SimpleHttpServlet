@@ -11,7 +11,8 @@ public class CRUDServelet extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		super.doGet(req, resp);
-		resp.getWriter().append("oi").flush();	
+		//resp.getWriter().append("oi").flush();	
+		System.out.println("hello world");
 	}
 	
 	@Override
